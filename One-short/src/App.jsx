@@ -1,6 +1,8 @@
 import React from 'react';
 // import Header from './componets/Header.jsx';
-import Routing from './componets/Routing.jsx';
+// import Routing from './componets/Routing.jsx';
+import Background from './Docs/Background.jsx';
+import Foreground from './Docs/Foreground.jsx';
 const App = () => {
   // const [marks, setMarks] = useState("Bharat");
   // const [first, setFirst] = useState("Suraj")
@@ -13,7 +15,14 @@ const App = () => {
       {/* <h2>{marks}</h2> */}
 
       {/* routing */}
-      <Routing/>
+      {/* <Routing/> */}
+      {/* <Header/> */}
+       
+       <div className='relative w-full h-screen bg-zinc-900'>
+          <Background/>
+         <Foreground/>
+       </div>
+
 
     </>
   );
